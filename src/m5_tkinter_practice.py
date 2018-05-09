@@ -22,7 +22,7 @@ def main():
     #   ** put a Frame on the window. **
     # ------------------------------------------------------------------
     frame1 = ttk.Frame(root, padding=20)
-    frame1.grid
+    frame1.grid()
     # ------------------------------------------------------------------
     # Done
     #   ** put a Button on the Frame. **
@@ -30,7 +30,7 @@ def main():
     say_hello_button = ttk.Button(frame1, text = 'say hi')
     say_hello_button.grid()
     # ------------------------------------------------------------------
-    # Done
+    # Done.
     #   ** make your Button respond to a button-press **
     #   ** by printing   "Hello"  on the Console.     **
     # ------------------------------------------------------------------
@@ -50,7 +50,7 @@ def main():
     say_hello_button['command'] = lambda: check_for_ok(my_entry_box)
     say_hello_button.grid()
     # ------------------------------------------------------------------
-    # TODO: 7.
+    # Done
     #    -- Put a second Entry on the Frame.
     #    -- Put a third Button on the frame.
     #    -- Make this new Button respond to a button-press as follows:
